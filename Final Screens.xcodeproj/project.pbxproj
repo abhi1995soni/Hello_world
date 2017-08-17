@@ -12,6 +12,8 @@
 		BB5484C31F41AFD30041356C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5484C11F41AFD30041356C /* Main.storyboard */; };
 		BB5484C51F41AFD30041356C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5484C41F41AFD30041356C /* Assets.xcassets */; };
 		BB5484C81F41AFD30041356C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5484C61F41AFD30041356C /* LaunchScreen.storyboard */; };
+		BB5484D01F41B8370041356C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5484CF1F41B8370041356C /* TableViewCell.swift */; };
+		BB5484D21F41BDFF0041356C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5484D11F41BDFF0041356C /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BB5484C41F41AFD30041356C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB5484C71F41AFD30041356C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB5484C91F41AFD30041356C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5484CF1F41B8370041356C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BB5484D11F41BDFF0041356C /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				BB5484BD1F41AFD30041356C /* AppDelegate.swift */,
-				BB5484BF1F41AFD30041356C /* ViewController.swift */,
 				BB5484C11F41AFD30041356C /* Main.storyboard */,
+				BB5484BF1F41AFD30041356C /* ViewController.swift */,
+				BB5484CF1F41B8370041356C /* TableViewCell.swift */,
+				BB5484D11F41BDFF0041356C /* View.swift */,
 				BB5484C41F41AFD30041356C /* Assets.xcassets */,
 				BB5484C61F41AFD30041356C /* LaunchScreen.storyboard */,
 				BB5484C91F41AFD30041356C /* Info.plist */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					BB5484B91F41AFD30041356C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4XT87GFF3H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5484D21F41BDFF0041356C /* View.swift in Sources */,
+				BB5484D01F41B8370041356C /* TableViewCell.swift in Sources */,
 				BB5484C01F41AFD30041356C /* ViewController.swift in Sources */,
 				BB5484BE1F41AFD30041356C /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XT87GFF3H;
 				INFOPLIST_FILE = "Final Screens/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gaurish.Final-Screens";
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XT87GFF3H;
 				INFOPLIST_FILE = "Final Screens/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gaurish.Final-Screens";
