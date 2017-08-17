@@ -250,22 +250,38 @@
             </objects>
             <point key="canvasLocation" x="-98.400000000000006" y="122.78860569715144"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="cLz-UR-4iC">
+        <!--Second View Controller-->
+        <scene sceneID="agC-XR-kZr">
             <objects>
-                <viewController id="Kw4-9m-csU" sceneMemberID="viewController">
+                <viewController id="qh9-aS-yNS" customClass="SecondViewController" customModule="Final_Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="rEK-t5-mIw"/>
-                        <viewControllerLayoutGuide type="bottom" id="ACS-TQ-xcB"/>
+                        <viewControllerLayoutGuide type="top" id="4sK-jy-mwN"/>
+                        <viewControllerLayoutGuide type="bottom" id="07X-bc-xIJ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Fkz-7o-hRk">
+                    <view key="view" contentMode="scaleToFill" id="ned-HW-P42">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abhishek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgu-ph-8ur">
+                                <rect key="frame" x="152" y="323" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pgu-ph-8ur" firstAttribute="centerY" secondItem="ned-HW-P42" secondAttribute="centerY" id="HRp-1b-7dg"/>
+                            <constraint firstItem="Pgu-ph-8ur" firstAttribute="centerX" secondItem="ned-HW-P42" secondAttribute="centerX" id="Ufj-AB-JV8"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="name" destination="Pgu-ph-8ur" id="pq5-Xc-E6B"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nKR-IY-x6S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cfc-hs-zhb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="534" y="125"/>
         </scene>
     </scenes>
     <resources>
