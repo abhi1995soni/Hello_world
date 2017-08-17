@@ -283,6 +283,36 @@
             </objects>
             <point key="canvasLocation" x="534" y="125"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Qb3-nc-vZi">
+            <objects>
+                <viewController id="gtK-Ju-Eju" customClass="ThirdViewController" customModule="Final_Screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gqO-l9-I6J"/>
+                        <viewControllerLayoutGuide type="bottom" id="ofq-h4-lOq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aw5-aw-9YI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soni" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4Y-Qg-AVu">
+                                <rect key="frame" x="170.5" y="323" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D4Y-Qg-AVu" firstAttribute="centerY" secondItem="aw5-aw-9YI" secondAttribute="centerY" id="UZu-3P-CQW"/>
+                            <constraint firstItem="D4Y-Qg-AVu" firstAttribute="centerX" secondItem="aw5-aw-9YI" secondAttribute="centerX" id="vay-hd-Sxc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLq-sB-wj7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1182" y="125"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Beetween Border" width="12" height="179"/>
